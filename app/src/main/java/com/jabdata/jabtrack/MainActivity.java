@@ -46,9 +46,9 @@ public class MainActivity extends ActionBarActivity implements GooglePlayService
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        map = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
-        CameraUpdate update = CameraUpdateFactory.newLatLngZoom(LOCATION_TEST, 16);
-        map.animateCamera(update);
+//        map = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
+//        CameraUpdate update = CameraUpdateFactory.newLatLngZoom(LOCATION_TEST, 16);
+//        map.animateCamera(update);
         Toast.makeText(
                 getApplicationContext(),
                 "Your Location is -\nLat: " + lat + "\nLong: "

@@ -4,5 +4,16 @@
     <string name="app_name">Jabtrack</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="miles_driven_today">Miles Driven Today:</string>
+    <string name="hours_driven_today">Hours Driven Today:</string>
+    <string name="dashes">------------</string>
+    <string name="odometer">Odometer:</string>
+    <string name="hours_on_duty_today">Hours On Duty Today:</string>
+    <string name="title_activity_driver_logs">driverLogs</string>
+    <string name="daily_driving_logs">Daily Driving Logs</string>
+    <string name="messages">Messages</string>
+    <string name="hours_on_duty_7days">Hours On Duty Last 7 Days:</string>
+    <string name="start_of_shift_today">Start Time Today:</string>
+    <string name="duty_status_log">Duty Status Log</string>
 
 </resources>
