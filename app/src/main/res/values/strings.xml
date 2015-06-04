@@ -15,5 +15,32 @@
     <string name="hours_on_duty_7days">Hours On Duty Last 7 Days:</string>
     <string name="start_of_shift_today">Start Time Today:</string>
     <string name="duty_status_log">Duty Status Log</string>
+    <string name="title_activity_login">Login</string>
+    <string name="insert_username">Insert Username!</string>
+    <string name="insert_password">Insert Password!</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="register">Register</string>
+    <string name="email_address">Email Address</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="sign_up">SIGN UP</string>
+
+
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <string name="title_activity_register">Register</string>
 
 </resources>
