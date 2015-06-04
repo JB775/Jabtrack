@@ -30,9 +30,9 @@
         android:layout_height="wrap_content"
         android:text="@string/messages"
         android:id="@+id/messagesButton"
-        android:layout_above="@+id/drivingLogButton"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -159,8 +159,19 @@
         android:layout_height="wrap_content"
         android:text="@string/duty_status_log"
         android:id="@+id/dutyStatusLogbutton"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_above="@+id/drivingLogButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:background="@drawable/round_button"
+        android:layout_toEndOf="@+id/drivingLogButton"
+        android:layout_toStartOf="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"/>
 
 </RelativeLayout>
